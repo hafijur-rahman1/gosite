@@ -83,7 +83,13 @@ footer p{
     text-align: center;
     font-size: 20px;
 }
+<<<<<<< HEAD
 .half-width-single{
     overflow: scroll;
 
 }
+=======
+.half-width single{
+    Overflow: scroll;                   
+}
+>>>>>>> 18acc30211348e56c5c29201087a63a94d1d19fe
