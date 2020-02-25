@@ -83,6 +83,6 @@ footer p{
     text-align: center;
     font-size: 20px;
 }
-Div{
-    Overflow: scroll;
+.half-width single{
+    Overflow: scroll;                   
 }
