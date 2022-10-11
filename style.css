@@ -1,57 +1,86 @@
+html{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
 body{
-    margin: o;
+    margin: 0;
+    padding: 0;
     font-family: 'Knewave', cursive;
 }
+
 h1{
     font-size: 50px;
-    margin: 0px;
 }
-.h3{
-    font-size: 35px;
-     
-}
-.h2{
-    font-size: 45px;
 
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
 }
  
-.hilight{
-    color:blue;
-}
 p{
     font-size: 20px;
 }
+ 
+.container{
+    display: flex;
+    padding: 0px 15px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.hilight{
+    color:blue;
+}
+
 .half-width{
-    width: 40%;
-    margin-left: 5%;
-    padding-left: 2%;
-    float: left;
+    width: 50%;
+    padding: 0px 15px;
 }
 .half-width img{
-    width: 120%;
+    width: 100%;
 }
 .top-ban{
-    border: 30px solid rebeccapurple;
+    width: 100%;
+    padding-top: 100px;
+    min-height: 500px;
     background-image: url(pic/top-banner.png);
     background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    border-top: 30px solid rebeccapurple;
 }
+
 .section{
-    height: 500%;
+    padding: 100px 0px;
     padding-bottom: 100%;
 
 }
+
 .link-button{
+    display: inline-block;
     text-decoration: none;
     background-color: rgb(85, 247, 10);
     padding: 10px 20px;
     border-radius: 12%;
     color: snow;
-    font:bold;
+    font-weight: bold;
 }
-.dream-area{
+/* .dream-area{
     background-image: url(pic/top-banner.png);
     background-repeat: no-repeat;
-}
+} */
 .color{
     color: rgb(165, 19, 100);
 }
@@ -69,27 +98,14 @@ p{
     border-radius: 5px;
     height: 80%;
 }
-#full{
+.half-width-single{
+    padding: 15px 25px;
     border-left: 7px solid;
-    border-image: linear-gradient( 180deg lightsalmon tomato);
-    border-image-slice: 1;
+    border-image:  linear-gradient(to bottom,  lightsalmon,  tomato) 1 100%;
+    margin-top: 30px;
 }
-#baby{
-    border-left: 7px solid;
-    border-image: rgb(119, 16, 16);
-    border-image-slice: 1;
-}
+
 footer p{
     text-align: center;
     font-size: 20px;
 }
-<<<<<<< HEAD
-.half-width-single{
-    overflow: scroll;
-
-}
-=======
-.half-width single{
-    Overflow: scroll;                   
-}
->>>>>>> 18acc30211348e56c5c29201087a63a94d1d19fe
